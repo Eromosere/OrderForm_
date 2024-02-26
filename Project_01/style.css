@@ -1,0 +1,90 @@
+/*style the webpage */
+html{
+    background-color: #537188;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* style the headings */
+h1 {
+    color: #CBB279;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1:hover {
+    color: aqua;
+}
+
+/* style the form */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E1D4BB;
+    border-radius: 10px;
+  }
+  
+  /* style the labels */
+  label {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* style the select dropdowns */
+  select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* style the submit button */
+  button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: blue;
+  }
+  
+  /* style the total cost */
+  #total-cost {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  /* style the footer */
+  footer{
+    color: saddlebrown; 
+    text-align: justify;
+  }
+  
+  /* style the class input elements */
+  .input{
+    width: 250px;
+    border-radius: 10px;
+  }
+  /* style the element with id="address" */
+  #address {
+    border-radius: 10px;
+  }

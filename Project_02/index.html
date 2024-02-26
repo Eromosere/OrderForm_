@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Components Order Form</title>
+    <link rel="stylesheet" type="text/css" href="../Project_02/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Computer Components Order Form</h1>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            <label for="motherboard">Motherboard:</label>
+            <select id="motherboard" name="motherboard" required>
+                <option value="">Please select</option>
+                <option value="Asus">Asus</option>
+                <option value="Gigabyte">Gigabyte</option>
+                <option value="MSI">MSI</option>
+            </select>
+            <label for="processor">Processor:</label>
+            <select id="processor" name="processor" required>
+                <option value="">Please select</option>
+                <option value="Intel">Intel</option>
+                <option value="AMD">AMD</option>
+            </select>
+            <label for="ram">RAM:</label>
+            <select id="ram" name="ram" required>
+                <option value="">Please select</option>
+                <option value="4GB">4GB</option>
+                <option value="8GB">8GB</option>
+                <option value="16GB">16GB</option>
+            </select>
+            <label for="storage">Storage:</label>
+            <select id="storage" name="storage" required>
+                <option value="">Please select</option>
+                <option value="HDD">HDD</option>
+                <option value="SSD">SSD</option>
+            </select>
+            <label for="graphics">Graphics Card:</label>
+            <select id="graphics" name="graphics" required>
+                <option value="">Please select</option>
+                <option value="Nvidia">Nvidia</option>
+                <option value="AMD">AMD</option>
+            </select>
+            <input type="submit" value="Place Order">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

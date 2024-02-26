@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="../Project_01/style.css">
+    <link rel="shortcut icon" href="../Project_01/favicon.ico?v=2" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Computer Component Order Form.</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="name">Name:</label>
+                    <br>
+                    <input class="input" type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input class="input" type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone:</label>
+                    <br>
+                    <input class="input" type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <label for="address">Address:</label>
+                    <br>
+                    <textarea name="Address" id="address" cols="40" rows="10" required></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Component Selection</legend>
+                <div>
+                    <label for="cpu">CPU:</label>
+                    <select id="cpu" name="cpu" required>
+                        <option value="">Select a CPU</option>
+                        <option value="Intel i5">Intel i5</option>
+                        <option value="Intel i7">Intel i7</option>
+                        <option value="AMD Ryzen 5">AMD Ryzen 5</option>
+                        <option value="AMD Ryzen 7">AMD Ryzen 7</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="motherboard">Motherboard:</label>
+                    <select id="motherboard" name="motherboard" required>
+                        <option value="">Select a Motherboard</option>
+                        <option value="ASUS Prime Z490-A">ASUS Prime Z490-A</option>
+                        <option value="MSI MPG B550 Gaming Edge WIFI">MSI MPG B550 Gaming Edge WIFI</option>
+                        <option value="Gigabyte AORUS X570 Master">Gigabyte AORUS X570 Master</option>
+                        <option value="ASRock B450M-HDV R4.0">ASRock B450M-HDV R4.0</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="ram">RAM:</label>
+                    <select id="ram" name="ram" required>
+                        <option value="">Select RAM</option>
+                        <option value="Corsair Vengeance LPX 16GB">Corsair Vengeance LPX 16GB</option>
+                        <option value="Crucial Ballistix 16GB">Crucial Ballistix 16GB</option>
+                        <option value="G.SKILL Ripjaws V Series 16GB">G.SKILL Ripjaws V Series 16GB</option>
+                        <option value="Kingston HyperX Fury 16GB">Kingston HyperX Fury 16GB</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="gpu">GPU:</label>
+                    <select id="gpu" name="gpu" required>
+                        <option value="">Select a GPU</option>
+                        <option value="NVIDIA GeForce RTX 3080">NVIDIA GeForce RTX 3080</option>
+                        <option value="NVIDIA GeForce RTX 4070 Ti">NVIDIA GeForce RTX 4070 Ti</option>
+                        <option value="AMD Radeon RX 7900 XTX">AMD Radeon RX 7900 XTX</option>
+                        <option value="AMD Radeon RX 6700 XT">AMD Radeon RX 6700 XT</option>
+                    </select>
+                </div>
+                <br>
+                <button type="submit">Place Order</button>
+            </fieldset>
+        </form>
+    </main>
+    <script src="../Project_01/index.js"></script>
+</body>
+<br>
+<footer><em>Eromosere Etieyibo™. All rights reserved.</em></footer>
